@@ -1,0 +1,45 @@
+/* For screens smaller than 600px (i.e. phones) */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  
+  form {
+    width: 100%;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+/* For screens larger than 600px (i.e. tablets, laptops, desktops) */
+@media (min-width: 601px) {
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  form {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  button {
+    width: 48%;
+    margin-top: 0;
+  }
+}

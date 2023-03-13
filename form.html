@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UFT-8">
+    <title>Registration form</title>
+</head>
+<body style="background-color:lightblue;"></body>
+    
+      
+<div class="main">
+    <div class="register">
+        <h1><center><u>Registration Form</u> </center></h1>
+        <script src="sudhakar.js"></script>
+ <form action="successful.html" > <form action="#" method="post">
+
+        <br>
+        <body>
+            <style>
+           form {background-color:white; padding: 20px; background-size: cover; background-position: center;
+            background-repeat: no-repeat;
+            margin-left: 555px;
+            margin-right: 555px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+            position:floralwhite;
+            background-image:url{download.jpg}
+            }
+            </style>
+        <label>Full Name :</label>
+        <input type="text" name="name" placeholder="Enter you full name" required><br><br>
+        <lable>Hall Ticket No :</lable>
+        <input type="text" name="hallticket"  
+        id="name" placeholder=" Enter Your Hall Ticket No" required>
+        <br><br> 
+        <requried>
+        <lable>Gender :</lable>
+        </requried>
+        &nbsp;
+        <id="male">Male</span>
+        <input type="checkbox" name="gender" size="40"
+        id="male" >
+        &nbsp;
+        <span id="female">Female</span>
+        <input type="checkbox" name="gender"
+        id="female" >
+        &nbsp;
+        <span id="Other">Other</span>
+        <input type="checkbox" name="gender"
+        id="other" >
+        <br><br>
+        <lable>Email id :</lable>
+        <input type="email" name="email" size="30"
+        id="name" placeholder="example@gmail.com" required>
+        <br><br>
+        <label>Password :</label>
+        <input type="password" name="password"
+        id="password" placeholder="Set Password" required>
+        <br><br>
+        <lable>Confirm Password :</lable>
+        <input type="password" name="Confirm-Password"
+        id="Confirm-password" placeholder="Confirm Password" required>
+        <br><br>
+        <lable>Branch :</lable>
+        <select>
+            <option>Select Your Branch</option>
+            <option value="AIML">AIM(Arificial Intelligence machine learning)</option>
+            <option value="CSE">CSE(Computer science engineering)</option>
+            <option value="DS">DS(Data science)</option>
+                  </select>
+        <br><br>
+        <label>Section</label>
+        <select>
+            <option>Select Your Section</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+
+        <br><br>
+        <label>Address :</label>
+        <textarea name="address" id="name" placeholder="Enter your Address" size="40" required ></textarea>
+        <br><br>
+               <label>Upload Photo</label> <input type="file" x-ref="file" @change="fileName = $refs.file.files[0].name" name="img[]" class="d-none" required>
+                <br><br>
+                <div class="container">
+                    <div class="input-group shadow">
+           <br>
+            <input type="submit" value="Submit"> 
+         <input type="Reset"> 
+          <input  type="button" value="Cancel">
+        </form>
+    
+    </style>
+        </body>
+        </form>
+<script>
+    function clearForm() {
+        document.getElementById("input-name").value = "";
+        document.getElementById("input-email").value = "";
+
+}
+</script>
+</body>
+</html>
